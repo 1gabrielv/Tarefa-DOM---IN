@@ -1,23 +1,3 @@
-// let secao = document.querySelector('.section_messages');
-// function enviar_mensagem(){
-//     let input = document.querySelector('.input_messages');
-//     let escopo = document.createElement('div');
-//     let texto = document.createElement('p');
-//     texto.innerText = input.value;
-//     escopo.append(texto);
-//     secao.append(escopo);
-//     console.log("A mensagem é: " + texto.innerText);
-// }
-
-// function limpar_mensagem(){
-//     secao.innerText = '';
-// }
-
-// let btn_limpar = document.querySelector('#btn_limpar');
-// btn_limpar.addEventListener('click', limpar_mensagem);
-// let btn_enviar = document.querySelector('#btn_enviar');
-// btn_enviar.addEventListener('click',()=>{enviar_mensagem()});
-
 function enviar_mensagem() {
     let input = document.querySelector('.text');
     let texto = input.value.replace(",", ".");
